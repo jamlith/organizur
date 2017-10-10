@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+div.App {
+    max-width: 1150px !important;
+    width: 1150px !important;
+    margin: 0 auto auto auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.indie {
+    font-family: 'Indie Flower', cursive;
+}
+
+.ContentComponent {
+    display: flex;
+    margin: 10px 0 0 0;
+    padding-left: 10px;
+}

@@ -1,0 +1,15 @@
+.LeftNavComponent {
+    border-radius: 5px;
+    margin: 10px auto auto 0;
+    background-color: #673Ab7;
+    color: #FFF;
+    width: 300px !important;
+    text-align: left;
+    transition: transform 5s;
+    float: left;
+}
+
+div.LeftNavComponent:hover {
+    transform: translateX(80deg);
+    transition: transform 5s;
+}
